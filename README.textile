@@ -1,0 +1,33 @@
+h2. Usage
+
+* copy into CakePHP application dir
+* attach behavior on model
+
+h2. Methods
+
+* createPartition
+* removePartition
+* addPartition
+* dropPartition
+
+h2. Sample Shell
+
+h3. Usage
+
+cake/console/cake partition command [args]
+
+h3. Commands
+
+* create
+** create partitioning with now date
+* remove
+** remove partitioning
+* add
+** add partition arg[0] date
+* add_bulk
+** add partitions 7 days after a week
+* remove
+** remove partition arg[0] date
+* remove_bulk
+** remove partitions 7 days before a week
+
