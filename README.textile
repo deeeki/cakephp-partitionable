@@ -14,7 +14,9 @@ h2. Sample Shell
 
 h3. Usage
 
+<pre>
 cake/console/cake partition command [args]
+</pre>
 
 h3. Commands
 
@@ -23,11 +25,11 @@ h3. Commands
 * remove
 ** remove partitioning
 * add
-** add partition arg[0] date
+** add partition date given arg1 (ex. 20110101)
 * add_bulk
 ** add partitions 7 days after a week
-* remove
-** remove partition arg[0] date
-* remove_bulk
-** remove partitions 7 days before a week
+* drop
+** drop partition date given arg1 (ex. 20110101)
+* drop_bulk
+** drop partitions 7 days before a week
 
